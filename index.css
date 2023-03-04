@@ -1,0 +1,130 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive; */
+
+body    {
+    margin: 0;
+    background: url(lavender-background.jpg);
+    background-size: 100vw;
+    background-position: center;    
+    color: #3c3752;    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+    justify-content: center;
+    max-width: 650px;
+    background: rgba(138, 161, 132, .8);
+    border: 10px double #5D576B;
+    border-radius: 8px;
+    margin: 50px auto;
+}
+
+div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+h2 {
+    margin: 5px;
+    color: #054A29;
+    text-decoration: underline;
+}
+
+#description {
+    border-bottom: 3px solid #054A29;
+    line-height: 2em;
+    width: 88%;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+
+img {
+    width: 30%;
+    border-radius: 30%;
+    border: 4px solid #5D576B;  
+    margin: 5px auto;
+    padding: 0;
+}
+
+ul {
+    max-width: 650px;
+    text-align: center;
+}
+
+li::marker {
+    content: none;
+}
+
+a {
+    color: #3c3752;
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #054A29;
+}
+
+#contact {
+    margin-top: 40px;
+}
+
+input {
+    display: block;
+    margin: 40px auto 15px auto;
+    width: 160px;
+    box-sizing: border-box;
+    padding: 4px 8px;    
+    border-style: solid;
+    color: #3c3752;
+    background: none;
+    border-radius: 4px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 6px 12px;
+    border: none;
+    color: #fff;
+    background: #888BAE;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: block;
+    margin: 8px auto;
+    cursor: pointer;
+    width: 160px;
+}
+
+button:hover {
+    background-color: #3c3752;
+    color: #888BAE;
+    text-shadow: 0 0 1px #fff;
+}
+
+#work-header {
+    border-bottom: 2px solid #3c3752;
+}
+
+#work-links {
+    line-height: 2em;
+    font-family:'Poppins', sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+li.link {    
+    text-decoration: none;
+}
+
